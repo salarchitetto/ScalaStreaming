@@ -20,10 +20,10 @@ object Stream {
 
       import Spark.implicits._
       val cb = new ConfigurationBuilder
-      cb.setDebugEnabled(true).setOAuthConsumerKey("8ZIH6tvAcamgasHU7SEBUPZ90")
-        .setOAuthConsumerSecret("l1HJQP89adiqAy9AFeWKwtZ0aqCzlt7xSvo7F1b2nRQPQsFgjs")
-        .setOAuthAccessToken("971925425848029184-rxMxZuX6v34eAFnSQ8YwBlQ9iN1qWKv")
-        .setOAuthAccessTokenSecret("CqBDgMHhWMAZTsIW9YDJ0GK7fwDD8RiUtViPkBm1Ehxtn")
+      cb.setDebugEnabled(true).setOAuthConsumerKey("")
+        .setOAuthConsumerSecret("")
+        .setOAuthAccessToken("")
+        .setOAuthAccessTokenSecret("")
 
       val appName = "Data"
       val conf = new SparkConf()
